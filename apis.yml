@@ -1,0 +1,7 @@
+aid: iqvia
+url: https://raw.githubusercontent.com/api-evangelist/iqvia/refs/heads/main/apis.yml
+modified: '2026-03-21'
+apis: []
+common:
+  - type: Website
+    url: https://www.iqvia.com
