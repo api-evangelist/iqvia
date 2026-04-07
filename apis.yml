@@ -1,7 +1,11 @@
 aid: iqvia
-url: https://raw.githubusercontent.com/api-evangelist/iqvia/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/iqvia/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.iqvia.com
+description: >-
+  IQVIA empowers life sciences organizations to accelerate innovation, improve patient
+  outcomes, and bring treatments to market faster through advanced analytics and technology.
