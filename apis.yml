@@ -6,7 +6,7 @@ description: >-
   analytics and technology. IQVIA is a Fortune 500 company offering data,
   analytics, clinical research, and connected intelligence services.
 kind: contract
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Analytics
   - Clinical Research
