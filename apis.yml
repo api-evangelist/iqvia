@@ -36,6 +36,8 @@ tags:
   - Healthcare
   - Life Sciences
   - Clinical Trials
+  - Pharmaceuticals
+  - Biotechnology
 url: >-
   https://raw.githubusercontent.com/api-evangelist/iqvia/refs/heads/main/apis.yml
 created: '2026-03-21'
@@ -53,6 +55,8 @@ common:
     url: https://www.linkedin.com/company/iqvia
   - type: Website
     url: https://www.iqvia.com
+  - type: GitHubOrganization
+    url: https://github.com/quintilesims
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
