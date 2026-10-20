@@ -1,0 +1,128 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 10
+  own: 6
+  other_domain: 2
+  platform: 2
+  roles:
+  - api
+  - identity
+  - other
+  - source
+  - support
+  - website
+hosts:
+- host: api.iqvia.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: iqvia.com
+  role: api
+  relation: own
+- host: api.microsoftonline.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: microsoftonline.com
+  role: api
+  relation: other-domain
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: ir.iqvia.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: iqvia.com
+  role: other
+  relation: own
+- host: jobs.iqvia.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: iqvia.com
+  role: other
+  relation: own
+- host: login.customerportal.iqvia.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  - vendor-detect
+  types:
+  - Login
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: iqvia.com
+  role: identity
+  relation: own
+- host: login.microsoftonline.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: microsoftonline.com
+  role: identity
+  relation: other-domain
+- host: support.iqvia.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: iqvia.com
+  role: support
+  relation: own
+- host: www.iqvia.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Newsroom
+  - Leadership
+  - Blog
+  - Website
+  - TermsOfService
+  - PrivacyPolicy
+  serves:
+  - cdn
+  vendor: fastly
+  registrable_domain: iqvia.com
+  role: website
+  relation: own
+- host: www.linkedin.com
+  found_by:
+  - pointer
+  types:
+  - LinkedIn
+  serves: []
+  registrable_domain: linkedin.com
+  role: other
+  relation: platform
