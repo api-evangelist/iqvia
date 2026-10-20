@@ -28,3 +28,61 @@
     detected: '2026-10-15'
   status: not-a-workflow
   arazzo: null
+- slug: iqvia-databricks-marketplace
+  label: Databricks Marketplace
+  partner: databricks
+  partner_name: Databricks Marketplace
+  category: data product listing
+  type: marketplace
+  marketplace: databricks-marketplace
+  channel: distribution
+  evidence: https://marketplace.databricks.com/provider/7fab49b9-819a-4cd8-a7e2-79af51df6f72
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: Databricks Marketplace (marketplace.databricks.com/api/2.0/public-marketplace-providers + public-marketplace-listings)
+    spec_file: null
+    role: data-marketplace-seller
+    registered_name: IQVIA
+    matched_domain: iqvia.com
+    matched_by: domain
+    listings: 6
+    sample_listings:
+    - IQVIA Data-as-a-Service (DaaS+)
+    - IQVIA MIDAS®
+    - IQVIA OneKey HCP & HCO Data
+    - IQVIA PharMetrics® Plus Claims Data
+    - IQVIA US Healthcare Insurer & Risk Data & Services
+    signal_note: 'participation: the provider lists data products on this marketplace; counts are context'
+    detected_by: sweep-data-marketplaces.py
+    detected: '2026-10-20'
+  status: not-a-workflow
+  arazzo: null
+- slug: iqvia-snowflake-marketplace
+  label: Snowflake Marketplace
+  partner: snowflake
+  partner_name: Snowflake Marketplace
+  category: data product listing
+  type: marketplace
+  marketplace: snowflake-marketplace
+  channel: distribution
+  evidence: https://app.snowflake.com/marketplace/providers/GZSOZ5C6AV
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: Snowflake Marketplace providers (app.snowflake.com/marketplace/providers, rendered; names only, Wikidata
+      P856 identity step)
+    spec_file: null
+    role: data-marketplace-seller
+    registered_name: IQVIA
+    matched_domain: iqvia.com
+    matched_by: domain
+    listings: 8
+    sample_listings: []
+    signal_note: 'participation: the provider lists data products on this marketplace; counts are context'
+    detected_by: sweep-data-marketplaces.py
+    detected: '2026-10-20'
+    identity_source: wikidata
+    identity_note: wikidata P856 iqvia.com for 'IQVIA' (labelled identity step)
+  status: not-a-workflow
+  arazzo: null
