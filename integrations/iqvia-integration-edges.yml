@@ -22,6 +22,9 @@ checked:
 - https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/suppliers
 - https://www.crowncommercial.gov.uk/agreements
 - https://www.ncsc.gov.uk/cyberessentials/search
+- https://www.ga4gh.org/community/organizational-members/
+- https://www.ga4gh.org/our-products/
+- https://www.ga4gh.org/our-products/implementations/
 summary: null
 marketplace_apps: []
 edges:
@@ -131,4 +134,31 @@ edges:
     detected: '2026-10-21'
   detected_by: sweep-uk-g-cloud-suppliers.py
   first_seen: '2026-10-21'
+- partner_name: GA4GH (Global Alliance for Genomics and Health)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.ga4gh.org/community/organizational-members/
+  category: genomic data-sharing standards alliance membership
+  contract_reference:
+    register: GA4GH organisational members (ga4gh.org/community/organizational-members/)
+    standard: GA4GH standards (htsget, DRS, TES, WES, Beacon, Passports, refget, VRS, Phenopackets)
+    spec_file: null
+    role: ga4gh-organisational-member
+    registered_name: IQVIA
+    register_country: United States
+    register_member_type: Companies Information Technology
+    register_id: https://www.iqvia.com/
+    matched_domain: iqvia.com
+    matched_by: domain
+    signal_note: 'participation only: organisational membership of the Global Alliance for Genomics and Health (the
+      member list links each member''s website, the link is the identity); GA4GH runs no conformance certification,
+      listing is not conformance'
+    detected_by: sweep-ga4gh-genomics-standards.py
+    detected: '2026-10-22'
+  detected_by: sweep-ga4gh-genomics-standards.py
+  first_seen: '2026-10-22'
 templates: []
