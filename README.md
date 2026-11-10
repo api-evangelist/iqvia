@@ -72,6 +72,10 @@ IQVIA empowers life sciences organizations to accelerate innovation, improve pat
 
 Everything profiled for IQVIA is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/iqvia/](https://apis.io/providers/iqvia/)** — or go straight to one of the APIs or properties below.
 
+### APIs (1)
+
+- [IQVIA Pricing & Market Access API](https://apis.io/apis/iqvia/iqvia-pricing-market-access-api/) — Provides pricing and market access data and analytics.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
@@ -80,7 +84,7 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Iqvia Domain Security](https://apis.io/security/iqvia/iqvia-domain-security/)
+- [IQVIA Domain Security](https://apis.io/security/iqvia/iqvia-domain-security/)
 
 ## Where to find this API
 
@@ -88,6 +92,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://www.iqvia.com)
 - [Pricing](https://www.iqvia.com/solutions/commercialization/commercial-analytics/pricing-and-market-access)
+- [Support](https://www.iqvia.com/contact-us)
 - [Blog](https://www.iqvia.com/newsroom)
 - [Terms of service](https://www.iqvia.com/about-us/terms-of-use)
 - [Privacy policy](https://www.iqvia.com/about-us/privacy)
@@ -95,7 +100,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 14.8** — emerging · rubric 0.24.0 · scored 2026-10-20
+**Kin Score 14.8** — emerging · rubric 0.25.0 · scored 2026-10-23
 
 | Facet | Score |
 |---|---|
@@ -129,6 +134,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
 **Regulatory alignment 10.9** — Health
 
